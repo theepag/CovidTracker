@@ -8,6 +8,14 @@ body {
   flex-direction: column;
 }
 .image {
-  width: 370px;
+  width: 110px;
   margin-top: 50px;
+}
+@media (max-width: 150px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
 }
